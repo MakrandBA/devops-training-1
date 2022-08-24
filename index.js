@@ -3,7 +3,7 @@ const port = process.env.port || 8000;
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello DevOps welcome this is a wrong test case!');
+    res.send('Hello DevOps!');
 });
 
 app.listen(port, () => { console.log('App is up & running!'); });
